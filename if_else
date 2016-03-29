@@ -1,0 +1,17 @@
+canFly = True
+canSwim = True
+CanchaseMouse = False
+
+if canFly:
+    if canSwim:
+        print("I am Duck")
+    elif CanchaseMouse:
+        print("I am Eagle")
+    else:
+        print('I am Bird')
+else:
+    print('I am chicken')
+    
+for i in range(0, 10):
+    if i % 2 == 0:
+        print(i)

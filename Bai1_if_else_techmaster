@@ -1,0 +1,11 @@
+score=1
+if  score >= 90 :
+    print("Grace is a")
+elif score >= 80 :
+    print("Grace is b")
+elif score >= 70 :
+    print("Grace is c")
+elif score >= 60 :
+    print('Grace is d')
+else:
+    print('grace is f')
